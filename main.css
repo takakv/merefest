@@ -1,0 +1,150 @@
+:root {
+    --primary: #23408e;
+    --primary-rgb: 35, 64, 142;
+    --default-bg: #fff;
+    --highlight: #d7591e;
+    --highlight-rgb: 215, 89, 30;
+    --dimmed: #ededf0;
+}
+
+:root {
+    --page-max-width: 1100px;
+}
+
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+blockquote,
+body,
+dd,
+dl,
+dt,
+figcaption,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+li,
+ol,
+p,
+pre,
+table,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+embed,
+img,
+object,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+figure img {
+    display: block;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+h3,
+.h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+a.t-visible {
+    text-decoration: underline;
+}
+
+a.t-visible:hover {
+    color: var(--highlight);
+}
+
+::-moz-selection,
+::selection {
+    color: #fff;
+    background-color: #7993db;
+}
+
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    min-width: 300px;
+    min-height: 100vh;
+    color: white;
+    background: center top url("bg.webp");
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
